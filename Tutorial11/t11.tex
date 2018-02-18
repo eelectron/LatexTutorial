@@ -1,0 +1,72 @@
+%Creating Powerpoint presentation
+\documentclass[11pt]{beamer}
+
+%multiple columns
+\usepackage{multicol}
+
+%use theme for slides
+\usetheme[progressbar=frametitle]{metropolis}
+\setbeamertemplate{frame numbering}[fraction]
+
+%Create title
+\title{Machine Learning}
+\subtitle{subtitle here}
+\author{Student}
+\institute{NIT Durgapur}
+\date{\today}
+
+
+\begin{document}
+
+%Title slide
+\begin{frame}
+	%Include title here
+	\titlepage
+\end{frame}
+
+%Slide 
+\begin{frame}[t]{Introduction to Machine Learning}
+\begin{enumerate}
+	\item item 1
+	\item item 2
+\end{enumerate}
+	Hello
+\end{frame}
+
+%show text on left and image on right
+%we have to setup columns for this
+\begin{frame}{Title}\vspace{10pt}
+$\sqrt{x^2} = $\\[10pt]
+\begin{enumerate}[(A)]
+\item $x$
+\item $-x$
+\item $|x|$
+\item undefined
+\end{enumerate}
+\end{frame}
+
+\begin{frame}{Title}\vspace{10pt}
+\begin{enumerate}
+%multicol is not working :(
+%\begin{multicols}[3]
+\item $y = e^{x^{\sin x}}$
+\item $y = e^{x^{\sin x}}$
+\item $y = e^{x^{\sin x}}$
+\item $y = e^{x^{\sin x}}$
+\item $y = e^{x^{\sin x}}$
+\item $y = e^{x^{\sin x}}$
+\item $y = e^{x^{\sin x}}$
+\item $y = e^{x^{\sin x}}$
+\item $y = e^{x^{\sin x}}$
+\item $y = e^{x^{\sin x}}$
+\item $y = e^{x^{\sin x}}$
+\item $y = e^{x^{\sin x}}$
+%\end{multicols}
+\end{enumerate}
+\end{frame}
+
+\begin{frame}[standout]
+Thank You
+\end{frame}
+
+\end{document}
