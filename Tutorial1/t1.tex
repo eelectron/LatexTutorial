@@ -1,0 +1,123 @@
+%Creating a very basic slides in LATEX using beamer :)
+\documentclass{beamer}
+\usetheme{Boadilla}
+
+\title{Title}
+\author{Prashant Singh}
+\institute{NIT Durgapur}
+\date{\today}
+
+\begin{document}
+
+\begin{frame}
+\titlepage
+
+\end{frame}
+
+\begin{frame}
+\frametitle{Frame title}
+\tableofcontents
+\end{frame}
+
+%Descriptions
+\begin{frame}
+\frametitle{Descriptions}
+\begin{description}
+\item[API] Application Programming Interface
+\item[LAN] Local Area Network
+\end{description}
+\end{frame}
+
+\section{Section 1}
+\subsection{Subsection 1}
+
+\begin{frame}
+\frametitle{List}
+\begin{itemize}
+\item a
+\item a123
+\item a123
+\item a
+\item a123
+\item a123
+\item a
+\item a123
+\item a123
+\end{itemize}
+\end{frame}
+
+
+%List within list
+\begin{frame}
+\frametitle{List}
+\begin{itemize}
+\item 1
+\item 2
+\item 3
+\begin{itemize}
+\item A
+\item B
+\item C
+\item D
+\end{itemize}
+\item 4
+\end{itemize}
+\end{frame}
+
+
+
+%Numbering the items
+\begin{frame}
+\begin{enumerate}
+\item apple
+\item apple
+\item apple
+\item apple
+\end{enumerate}
+\end{frame}
+
+
+%Using columns
+%columns not working in Texmaker
+\begin{frame}
+\frametitle{Using Columns}
+\begin{columns}
+\column{0.5\textwidth}
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+
+\column{0.5\textwidth}
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+bbbbbbbbbbbbbbbbbbbbbbbbbb
+\end{columns}
+\end{frame}
+
+\begin{frame}
+\frametitle{Pictures}
+\includegraphics[scale=1]{samoyed.jpg}
+\end{frame}
+
+\begin{frame}
+\frametitle{Pictures with info}
+\begin{figure}
+\includegraphics[scale=0.5]{samoyed.jpg}
+\caption{samoyed}
+Nice
+\end{figure}
+\end{frame}
+
+%Tables
+\begin{frame}
+\frametitle{Tables}
+\begin{table}
+\begin{tabular}{l |c|c|c|}
+aaa & bbb & ccc \\
+\hline \hline
+1 & 2 & 3 \\
+4 & 5 & 6
+\end{tabular}
+\caption{Wow}
+\end{table}
+\end{frame}
+
+\end{document}
