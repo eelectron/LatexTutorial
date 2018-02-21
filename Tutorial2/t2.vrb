@@ -1,0 +1,4 @@
+\frametitle{Buttons}
+\hyperlink{blocks}{\beamerbutton{Blocks}}
+\hyperlink{code}{\beamerbutton{Including code}}
+\hyperlink{mathblock}{\beamerbutton{Math Blocks}}

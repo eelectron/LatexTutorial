@@ -1,0 +1,60 @@
+\documentclass[10pt]{beamer}
+\usetheme{Boadilla}
+
+\begin{document}
+
+%Using blocks
+\begin{frame}
+	\label{blocks}
+	\frametitle{Blocks}
+	\begin{block}{Block Title}
+	aaaaaaaaa ddddddddddddd wwwwwwwww
+	jjjjj10980 .
+	\end{block}
+	
+	%Using alert block
+	\begin{alertblock}{Block Title}
+	aaaaaaaaa ddddddddddddd wwwwwwwww
+	jjjjj10980 .
+	\end{alertblock}
+	
+	%Definition
+	\begin{definition}
+		Si is symbol of Silicon.
+	\end{definition}
+\end{frame}
+
+%Math blocks
+\begin{frame}
+\label{mathblock}
+	\frametitle{Math blocks}
+	\begin{theorem}[Pythagoras]
+		$a^2 + b^2 = c^2$
+	\end{theorem}
+	\begin{corollary}
+		$x + y = y + x$
+	\end{corollary}
+	\begin{proof}
+		$\omega + \phi = \epsilon$
+	\end{proof}
+\end{frame}
+
+%Including code
+\begin{frame}[fragile]
+\label{code}
+	\frametitle{Including code}
+	\begin{semiverbatim}
+	\\begin\{frame\}
+	\\frametitle
+	\\tableofcontents
+	\\end\{frame\}
+	\end{semiverbatim}
+\end{frame}
+
+\begin{frame}[fragile]
+\frametitle{Buttons}
+\hyperlink{blocks}{\beamerbutton{Blocks}}
+\hyperlink{code}{\beamerbutton{Including code}}
+\hyperlink{mathblock}{\beamerbutton{Math Blocks}}
+\end{frame}
+\end{document}
